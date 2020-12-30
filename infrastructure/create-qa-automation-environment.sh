@@ -1,7 +1,7 @@
 # Environment variables
 PATH="$PATH:/usr/local/bin"
 APP_NAME="Petclinic"
-CFN_KEYPAIR="Call-$APP_NAME-dev-${BUILD_NUMBER}.key"
+CFN_KEYPAIR="e2440-$APP_NAME-dev-${BUILD_NUMBER}.key"
 CFN_TEMPLATE="./infrastructure/docker-swarm-infrastructure-cfn-template.yml"
 AWS_REGION="us-east-1"
 export ANSIBLE_PRIVATE_KEY_FILE="${WORKSPACE}/${CFN_KEYPAIR}"
